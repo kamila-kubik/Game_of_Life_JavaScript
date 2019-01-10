@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/milky-way-2695569_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Chelsea Market', cursive;
+}
+
+#board div {
+    width: 10px;
+    height: 10px;
+    border: 1px solid lightgrey;
+    background-color: white;
+    float: left;
+}
+
+#board {
+    margin: 15px;
+    display: none;
+}
+
+#game-set {
+    margin: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#game-set button {
+    margin: 20px;
+    height: 80px;
+    width: 80px;
+    background-color: darkblue;
+    color: white;
+    border: 2px solid darkblue;
+    border-radius: 50%;
+    font-size: 20px;
+    box-shadow: none;
+    font-family: 'Chelsea Market', cursive;
+    outline: none;
+    cursor: pointer;
+}
+
+#game-set button:hover {
+    background-color: white;
+    border: 2px solid darkblue;
+    box-shadow: none;
+    color: darkblue;
+    outline: none;
+}
+
+#game-menu {
+    margin: 50px auto;
+    width: auto;
+}
+
+#first-page {
+    background-image: url("../images/dna-3539309.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.description {
+    height: 80vh;
+    background-color: white;
+    opacity: 0.80;
+    padding: 30px;
+    margin: 30px;
+    font-size: 0.9rem;
+
+}
+
+.content1, .content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+.content1 {
+    width: 65vw;
+}
+
+ul, li, h1 {
+    margin: 0;
+}
+
+.author {
+    text-decoration: underline;
+    color: darkblue;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+    background-image: url("../images/milky-way-2695569_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.none {
+    display: none;
+}
+
+span {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.size {
+    font-size: inherit;
+}
+
+.start {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-family: inherit;
+    height: 50px;
+    font-size: 1rem;
+    margin-top: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.start:hover{
+    color: white;
+    background-color: darkblue;
+}
+
+#set-height, #set-width {
+    margin-right: 50px;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+.footer {
+    color: white;
+}

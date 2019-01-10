@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Game of Life</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chelsea+Market" rel="stylesheet">
+</head>
+
+<body>
+    <div id="first-page">
+        <div class="description">
+            <div class="content1">
+                <h1>Welcome to the Game of Life!</h1>
+                <h2>Game rules</h2>
+                <p>Your goal is to keep cells alive and ensure reproduction.
+                    At the beginning you can see randomly selected cells, which after click on "play" button, start changing and moving.
+                    You can stop the game anytime thanks to click "pause" button, you can also return to the start, only need to click "reset" button.
+                </p>
+                <p>How to cells reproduce or die?
+                    If the cell is alive and:
+                </p>
+                    <ul>
+                        <li>has only 1 neighbour - it dies</li>
+                        <li>has more than 3 neighbours - it dies</li>
+                        <li>has more than 2 and less than 3 neigbours - it is still alive</li>
+                    </ul>
+                <p>If dead cell has 3 and more neighbours - it comes alive.
+                    You can create new living cells throught mouse move over the board.
+                </p>
+                <p><span>Good luck!</span></p>
+                <p class="author">Made by Kamila Kubik 2018</p>
+            </div>
+        </div>
+        <div class="description">
+            <div class="content2">
+                <p><span>BEFORE YOU START</span></p>
+                <p>Choose size of your board and color of the cells.</p>
+                <label for="set-width">Set width of your board
+                    <br>
+                    <span class="size"> min. 10 - max. 100</span></label>
+                <input type="number" id="set-width">
+                <label for="set-height">Set height of your board
+                    <br>
+                    <span class="size">min. 10 - max. 100</span></label>
+                <input type="number" id="set-height">
+                <label for="set-color">Set color of your cells</label>
+                <input type="color" id="set-color">
+                <button class="start">Start</button>
+            </div>
+        </div>
+    </div>
+    <div class="flex-container none">
+        <section id="game-set">
+            <button id="play">Play</button>
+            <button id="pause">Pause</button>
+            <button id="refresh">Reset</button>
+        </section>
+        <section id="board">
+        </section>
+    </div>
+</body>
+<script type="text/javascript" src="js/app.js"></script>
+</html>

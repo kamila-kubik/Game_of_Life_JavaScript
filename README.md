@@ -39,7 +39,9 @@ JavaScript:
 and many more.
 
 ## Usage
-To start using this game, just download whole content and run index.html file or click here: https://kotem84.github.io/Game_of_Life_JavaScript/
+To start using this game, just download whole content and run index.html file or click here: 
+https://kamila-kubik.github.io/Game_of_Life_JavaScript/
+
 Enjoy!
  
 ## Game rules
